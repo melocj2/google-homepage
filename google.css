@@ -129,7 +129,8 @@ hr {
   margin-right: 730px;
   padding-bottom: 15px;
   background: url("images/triangle.png") no-repeat 10px 173px;
-  min-width: 500px;
+  width: 600px;
+  height: 154px;
 }
 
 .blueHeading1 {
@@ -167,7 +168,7 @@ hr {
   position: relative;
   bottom: 2px;
   height: 17px;
-  min-width: 500px;
+  width: 602px;
 }
 
 #helpful {
@@ -209,19 +210,16 @@ hr {
 }
 
 #about {
-  margin-right: 730px;
-  float: right;
   color: #808080;
   font-size: 12px;
   font-family: arial,sans-serif;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 16px;
-  margin-left: 150px;
-  margin-right: 730px;
   position: relative;
-  bottom: 17px;
+  margin-right: 740px;
+  margin-left: 150px;
+  width: 600px;
+  text-align: right;
 }
+
 
 #questionmark {
   padding-right: 7px;
@@ -240,7 +238,7 @@ hr {
   margin-left: 150px;
   margin-right: 730px;
   padding-bottom: 15px;
-  min-width: 500px;
+  width: 600px;
 }
 
 .caption1 {
@@ -349,6 +347,7 @@ hr {
   font-size: 18px;
   line-height: 18px;
   color: #222;
+  width: 600px;
 }
 
 #littleBlue {
@@ -392,50 +391,58 @@ hr {
 
 #footer {
   position: relative;
-  bottom: 400px;
+  bottom: 444px;
+  width: 100%;
+  background: #f2f2f2;
+  border: 1px solid #e4e4e4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 20px;
+  white-space: nowrap;
 }
 
 
-#addy, .bottomNotes, #addy strong {
-  color: #5f6368;
-  font-size: small;
+
+#footer span, .bfoot {
+  color: #808080;
+  font-size: 15px;
+}
+
+#footer strong {
+  color: #333;
+  font-size: small; 
 }
 
 #country {
-  color: #5f6368;
-  font-size: 15px;
-  border: 1px solid #e4e4e4;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 160px;
   padding-right: 10px;
-  padding-left: 170px;
-  background: #f2f2f2;
-  margin: 0;
+  border-right: 1px solid #e4e4e4;
 }
-
-#addy {
-  color: #5f6368;
-  font-size: 15px;
-  border: 1px solid #e4e4e4;
+#base { 
+  position: relative;
+  bottom: 445px;
+  width: 100%;
+  border: 1px solid black;
+  height: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  overflow: nowrap;
+  background: #f2f2f2;
+  border: 1px solid #e4e4e4;
+}
+
+#base :first-child {
+  padding-left: 160px;
+}
+
+.bfoot {
+  padding-right: 20px;
+  font-size: small;
+}
+
+#footer #addy {
+  font-size: small;
   padding-left: 10px;
-  padding-right: 728.92px;
-  background: #f2f2f2;
-  margin: 0;
-}
-
-.bottomNotes {
-  position: relative;
-  bottom: -20px;
-  left: 160px;
-  padding-left: 25px;
-}
-
-#footerBottom {
-  background: #f2f2f2;
-  height: 50px;
-  width: 100%;
 }
 
 
